@@ -1,0 +1,19 @@
+body {
+  background-color: #b1c5e8;
+}
+
+.cloud-wrap {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 357px;
+}
+
+#apy-cloud {
+  position: absolute;
+  top: 100px;
+/*  width: 357px;*/
+/*  display: block;*/
+/*  margin: 0 auto;*/
+/*  margin-top: 50px;*/
+}

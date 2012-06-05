@@ -1,0 +1,1 @@
+- **FlyingCloud** gif-like animated fling happy cloud ( why: its more fun so, whats more you can change the animation on the fly:P ). Use [.clearQueue()](http://api.jquery.com/clearQueue/) or [.stop()](http://api.jquery.com/stop/) and on a element ant fire a new one.
