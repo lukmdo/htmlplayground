@@ -1,0 +1,42 @@
+body {
+  background-color: #b1c5e8;
+}
+
+.cloud-wrap {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 357px;
+}
+
+$cloud-top-start: 90px;
+$cloud-top-stop: 110px;
+
+@-moz-keyframes kf-pos-fly {
+  from {top: $cloud-top-start;}
+  to {top: $cloud-top-stop;}
+}
+@-webkit-keyframes kf-pos-fly {
+  from {top: $cloud-top-start;}
+  to {top: $cloud-top-stop;}
+}
+
+@mixin animate-cloud {
+  -webkit-animation-name: kf-pos-fly;
+  -moz-animation-name: kf-pos-fly;
+  -webkit-animation-duration: 850ms;
+  -moz-animation-duration: 850ms;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+}
+
+#apy-cloud {
+  position: absolute;
+  top: 100px;
+  /* animate */
+  @include animate-cloud;
+}
