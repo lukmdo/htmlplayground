@@ -66,6 +66,9 @@ dd {
   margin-bottom: 1em; }
 
 @media only screen and (max-width: 767px) {
-  article h2 {
-    margin-top: -15px;
-    margin-left: -15px; } }
+  body {
+    background-color: white; }
+
+  #main-container {
+    margin: 0 0;
+    border: 0; } }
